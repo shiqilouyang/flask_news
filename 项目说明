@@ -1,0 +1,19 @@
+1,info 是项目名称！
+    1)  static 指的是静态文件的存放
+    2)  modules 项目分支，以及项目拆分的各个模块
+            index 主页面模块
+                __init__ 定义了admin模块蓝图以及蓝图对应的请求钩子(有的使用)
+                views.py 定义了各个蓝图
+            news 新闻模块
+            passport 是个人中心模块
+            profile  是登录验证模块
+            admin   是管理员模块
+    3)  util 工具模块(里面使用了第三方工具上传服务器)
+    4)  libs 是第三方模块(短信验证码模块)
+    5)  model.py    定义了数据库表结构
+    6)  constants.py 是定义全局变量文件
+2,cofig.py    是配置文件，各个配置属性
+3,logs    是指的是日志存放文件
+4,manager.py  是项目启动模块
+5,requirements.txt 是项目所需要的依赖
+
